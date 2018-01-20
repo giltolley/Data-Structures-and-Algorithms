@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sorting", "Sorting\Sorting.vcxproj", "{F5F34145-0974-43F9-A295-EBE1411158BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5F34145-0974-43F9-A295-EBE1411158BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5F34145-0974-43F9-A295-EBE1411158BF}.Debug|Win32.Build.0 = Debug|Win32
+		{F5F34145-0974-43F9-A295-EBE1411158BF}.Release|Win32.ActiveCfg = Release|Win32
+		{F5F34145-0974-43F9-A295-EBE1411158BF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D72DE50-BDDC-4923-A756-5382D8C6E0B0}
+	EndGlobalSection
+EndGlobal

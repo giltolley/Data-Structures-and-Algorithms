@@ -1,0 +1,2 @@
+﻿TestDriver.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Sorting.vcxproj -> C:\Users\tolle\Desktop\Coursework\My Programs\Sorting\Debug\Sorting.exe
