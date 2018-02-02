@@ -33,11 +33,14 @@ int main()
 			myHeap.printHeap(cout);
 			cout << endl;
 			cout << endl;
+			system("pause");
+			system("CLS");
 			break;
 		case 'I':
 		case 'i':
 			cout << "Please enter the item to be inserted: ";
-			//cin >> item;
+
+			// Catch the variable in a temp INT for type-checking
 			int x;
 			cin >> x;
 			while (cin.fail()) {
@@ -46,15 +49,18 @@ int main()
 				cin.ignore(256, '\n');
 				cin >> x;
 			}
-			cout << x << endl;
-			item = x;
 
+			// Once we're sure we have an integer, add it to the Heap
+			item = x;
 			myHeap.Insert(item);
 			cout << endl;
 			cout << item << " was inserted" << endl;
+			cout << endl;
+			cout << "Current Heap: ";
 			myHeap.printHeap(cout);
 			cout << endl;
-			cout << endl;
+			system("pause");
+			system("CLS");
 			break;
 		}//end switch
 	}//end while
