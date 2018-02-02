@@ -90,9 +90,6 @@
   <ItemGroup>
     <ClInclude Include="heap.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\cmath" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
